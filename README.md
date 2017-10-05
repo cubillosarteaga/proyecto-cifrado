@@ -12,6 +12,8 @@
 + **sino** entonces ingresa opción **b** entonces cumple la función de **descifrar**;
 + **mientras** si ingresa vacío arrojar una alerta que entregue un error de **"campo invalido"**;
 + **solicitar** al usuario frase que quiera traducir cifrar= descifrar
++ **cifrar** utilizando una fórmula, encriptar **["A,B,C"]** y **devolver** mensaje en código césar;
++ **descifrar** tulizando una fórmula, desencriptar **[H,I,J]** y **devolver** la traducción de lo que se ingresó;
 + se **llama a la función** para que entregue lo indicado.
 
 ### Ejemplo
@@ -25,7 +27,7 @@ var question2 = prompt("Ingresa tu frase");
 
 #### Link
 
-_https://cl.pinterest.com/pin/838654761831506941/_
+_![cifrado cesar](https://github.com/cubillosarteaga/proyecto-cifrado/blob/master/diagrama%20cifrado.jpg?raw=true)_
 
 **Este archivo es la versión 0.0.1** 
 

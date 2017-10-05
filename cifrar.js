@@ -3,19 +3,20 @@
 do {
 var question = prompt("Indique la opción que desea ejecutar : \n 1. Cifrar 2. Descifrar");
 
-if(seleccionar != ""){
-    if (seleccionar == "1") {
+if(question != ""){
+    if (question == "1") {
 	  cifrar ();
-} else if (seleccionar == "2") {
+} else if (question == "2") {
 	   descifrar ();
-} else {
-	alert ("Por favor ingresar una opción válida");
-}
-}
- while (question == "" || (question != "1" && question != "2"));// mientras no ingrese un campo vacío. 
+}else{
+	alert("Por favor ingresar una opción válida");
 }
 
-}
+/* while (question == "" || (question != "1" && question != "2")) // mientras no ingrese un campo vacío. 
+
+
+
+
 
 function = cipher(){
 var question2 = prompt("Ingresa tu frase");
@@ -29,7 +30,9 @@ question2.charCodeAt ()
 }
 // ingresar mensaje encriptado para traducirlo
 function = decipher(){
+
 var question2 = prompt("Ingresa tu frase");
 String.fromCharCode()
 
 }
+*/
